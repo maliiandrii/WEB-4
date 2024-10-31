@@ -30,7 +30,7 @@ body {
     align-items: center;
     grid-area: block1;
     background-color: #ffffff;
-    border-bottom: 1px solid #9a9a9a;:
+    border-bottom: 1px solid #9a9a9a;
 }
 
 .block2 {
@@ -39,6 +39,7 @@ body {
     align-items: center;
     grid-area: block2;
     background-color: #979595;
+    background-image: url('image-bg.jpg');
 }
 
 .block3 {
@@ -70,8 +71,125 @@ body {
     background-color: #fefefe;
     text-align: center;
     border: 1px solid #9a9a9a;
+    margin: 10px;
 }
 
 a {
     text-decoration: none;
+}
+
+.p1 {
+    font-size: 30px;
+    width: 300px;
+    color:#ffc600;
+}
+
+.p2 {
+    font-size: 15px;
+    width: 300px;
+    text-align: left;
+}
+
+.p3 {
+    font-size: 50px;
+    margin-left: 40px;
+    width: 500px;
+}
+
+.p4 {
+    font-size: 20px;
+    margin-left: 40px;
+    width: 500px;
+}
+
+.p5 {
+    color:white;
+    margin-top: 7px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 100vh;
+    }
+
+    .container_ {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .block_ {
+        width: 150px;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    .p1 {
+        font-size: 15px;
+        width: 120px;
+        color:#ffc600;
+    }
+
+    .p2 {
+        font-size: 8px;
+        width: 120px;
+        text-align: left;
+    }
+
+    .p3 {
+        font-size: 25px;
+        margin-left: 20px;
+        width: 250px;
+    }
+
+    .p4 {
+        font-size: 10px;
+        margin-left: 20px;
+        width: 250px;
+    }
+
+    .p5 {
+        color:white;
+        margin-top: 7px;
+    }
+
+    img {
+        height: 100px;
+    }
+
+    #site-search {
+        height: 20px;
+        font-size: 8px;
+        padding: 5px;
+        width: 300px;
+    }
+
+    .block1 {
+        text-align: left;
+        justify-content: flex-end;
+        align-items: center;
+        grid-area: block1;
+        background-color: #ffffff;
+        border-bottom: 1px solid #9a9a9a;
+    }
+
+    .block2 {
+        text-align: left;
+        justify-content: flex-end;
+        align-items: center;
+        grid-area: block2;
+        background-color: #979595;
+        background-image: url('image-bg-mb.JPG');
+    }
+
+    .block3 {
+        text-align: left;
+        justify-content: flex-end;
+        align-items: center;
+        grid-area: block3;
+        background-color: rgb(26, 26, 26);
+    }
+
+    .menu {
+        height: 20px;
+    }
 }
